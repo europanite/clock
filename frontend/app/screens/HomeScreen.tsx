@@ -43,20 +43,31 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000000",
+    backgroundColor: "#020617", // very dark blue
     alignItems: "center",
     justifyContent: "center",
   },
-  label: {
-    fontSize: 18,
-    color: "#AAAAAA",
-    marginBottom: 12,
+  centerBox: {
+    paddingVertical: 24,
+    paddingHorizontal: 32,
+    borderRadius: 24,
+    backgroundColor: "rgba(15,23,42,0.9)",
+    borderWidth: 1,
+    borderColor: "rgba(148,163,184,0.4)",
+    alignItems: "center",
+  },
+  title: {
+    fontSize: 16,
+    letterSpacing: 2,
+    textTransform: "uppercase",
+    color: "#94A3B8",
+    marginBottom: 8,
   },
   time: {
     fontSize: 64,
     fontWeight: "bold",
-    letterSpacing: 4,
-    color: "#FFFFFF",
+    letterSpacing: 6,
+    color: "#E5F1FF",
   },
   date: {
     marginTop: 6,
