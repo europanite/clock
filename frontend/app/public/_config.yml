@@ -1,6 +1,6 @@
-title: "frontend_template"
-description: "A Template For Frontend Development."
-baseurl: "/frontend_template"
+title: "clock"
+description: "A simple browser-based clock."
+baseurl: "/clock"
 url: "https://europanite.github.io"
 theme: minima
 markdown: kramdown
