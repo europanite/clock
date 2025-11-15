@@ -3,8 +3,6 @@
 !["clock"](./assets/images/web_ui.png)
 <!-- !["phone_ui"](./assets/images/phone_ui.png) -->
 
-A simple browser-based clock.
-
 ## PlayGround
 
  [Clock](https://europanite.github.io/clock/)
