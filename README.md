@@ -14,7 +14,7 @@ A simple browser-based clock.
 ## Getting Started
 
 ### 1. Prerequisites
-- [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ### 2. Build and start all services:
 
