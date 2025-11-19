@@ -1,11 +1,10 @@
 # [Clock](https://github.com/europanite/clock "Clock")
 
+[![GitHub Pages](https://github.com/europanite/clock/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/europanite/clock/actions/workflows/deploy-pages.yml)
+
 !["clock"](./assets/images/web_ui.png)
-<!-- !["phone_ui"](./assets/images/phone_ui.png) -->
 
-## PlayGround
-
- [Clock](https://europanite.github.io/clock/)
+ [PlayGround](https://europanite.github.io/clock/)
 
 A simple browser-based clock.
 
