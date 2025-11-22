@@ -38,20 +38,12 @@ export default function HomeScreen() {
     };
   }, []);
 
+  const REPO_URL = "https://github.com/europanite/clock";
+
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
-        <Text
-          style={{
-            fontSize: 48,
-            fontWeight: "800",
-            marginBottom: 12,
-            color: "#c5c5c5ff",
-            textDecorationLine: "underline",
-          }}
-        >
-          Clock
-        </Text>
+        <Text style={styles.date}>Clock</Text>
       </TouchableOpacity>
       <Text style={styles.date}>{date}</Text>
       <Text style={styles.time}>{time}</Text>
@@ -70,27 +62,28 @@ const styles = StyleSheet.create({
     paddingVertical: 24,
     paddingHorizontal: 32,
     borderRadius: 24,
-    backgroundColor: "rgba(15,23,42,0.9)",
+    backgroundColor: "rgba(0, 0, 0, 0.9)",
     borderWidth: 1,
     borderColor: "rgba(148,163,184,0.4)",
     alignItems: "center",
   },
   title: {
-    fontSize: 16,
+    fontSize: 32,
     letterSpacing: 2,
     textTransform: "uppercase",
     color: "#94A3B8",
     marginBottom: 8,
+    textDecorationLine: "underline",
+  },
+  date: {
+    marginTop: 32,
+    fontSize: 32,
+    color: "#CBD5F5",
   },
   time: {
     fontSize: 64,
     fontWeight: "bold",
     letterSpacing: 6,
     color: "#E5F1FF",
-  },
-  date: {
-    marginTop: 6,
-    fontSize: 18,
-    color: "#CBD5F5",
   },
 });

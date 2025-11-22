@@ -1,5 +1,7 @@
 # [Clock](https://github.com/europanite/clock "Clock")
 
+[![CI](https://github.com/europanite/clock/actions/workflows/ci.yml/badge.svg)](https://github.com/europanite/clock/actions/workflows/ci.yml)
+[![docker](https://github.com/europanite/clock/actions/workflows/docker.yml/badge.svg)](https://github.com/europanite/clock/actions/workflows/docker.yml)
 [![GitHub Pages](https://github.com/europanite/clock/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/europanite/clock/actions/workflows/deploy-pages.yml)
 
 !["clock"](./assets/images/web_ui.png)
