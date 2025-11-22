@@ -43,7 +43,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
-        <Text style={styles.date}>Clock</Text>
+        <Text style={styles.title}>Clock</Text>
       </TouchableOpacity>
       <Text style={styles.date}>{date}</Text>
       <Text style={styles.time}>{time}</Text>
