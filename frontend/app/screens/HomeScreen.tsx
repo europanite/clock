@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { 
+  View, 
+  Text, 
+  StyleSheet,
+  TouchableOpacity,
+  Linking
+} from "react-native";
 
 function getCurrentTimeString(): string {
   const now = new Date();
@@ -34,6 +40,19 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
+      <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
+        <Text
+          style={{
+            fontSize: 48,
+            fontWeight: "800",
+            marginBottom: 12,
+            color: "#c5c5c5ff",
+            textDecorationLine: "underline",
+          }}
+        >
+          Clock
+        </Text>
+      </TouchableOpacity>
       <Text style={styles.date}>{date}</Text>
       <Text style={styles.time}>{time}</Text>
     </View>
